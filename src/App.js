@@ -236,7 +236,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/background.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/map.jpg" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
@@ -258,6 +258,10 @@ function App() {
             <br></br>
             You can go to different places with Xiao Shan, enjoy unique experience, and have fun!
              
+            <br></br>
+            <a href="https://xiaoshan-metaverse.vercel.app/" style={{ color: "red" }}>Teacher Bai's Friend Metaverse Site</a>
+            <br></br>
+            <a href="https://showcase.ethglobal.com/roadtoweb3/teacher-bai-s-friend-metaverse-world" style={{ color: "red" }}>2022 Road to Web3 Hackathon preoject showcase</a>
             <br></br>
             <a href="https://showcase.ethglobal.com/nfthack2022/teacher-bai-s-friend" style={{ color: "red" }}>2022 ETHGlobal Hackathon preoject showcase</a>
             <br></br>
@@ -449,7 +453,7 @@ function App() {
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} TestNet) and the correct address. Please note:
             Once you make the purchase, you cannot undo this action. If you don't have enough Test ETH, feel free to claim some at 
-            <br></br><a href="https://faucets.chain.link/rinkeby" style={{color: "white"}}>rinkeby faucets</a>
+            <br></br><a href="https://faucets.chain.link/mumbai" style={{color: "red"}}>Mumbai TestNet faucets</a>
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
