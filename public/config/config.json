@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xb316c2c07fa2eab8c6ec7735ad02eb058fac6031",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0xe9e7a1f955e479a27489eb57b03753001e5fc86f",
+  "NETWORK": {
+    "NAME": "Mumbai TestNet",
+    "SYMBOL": "MATIC",
+    "ID": 80001
+  },
+  "NFT_NAME": "Teacher Bai's Friend",
+  "SYMBOL": "XB",
+  "MAX_SUPPLY": 1000,
+  "WEI_COST": 1000000000000000,
+  "DISPLAY_COST": 0.001,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/teacherbaifriend-v2",
+  "SHOW_BACKGROUND": true
+}
